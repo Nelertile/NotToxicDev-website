@@ -24,10 +24,12 @@ import Sidebar from './components/Sidebar.vue'
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: $dark-alt;
   font-family: "Comfortaa", cursive;
 }
-body {
-  background: $light;
+
+.app {
+  background-color: $primary-alt;
 }
 
 button {

@@ -4,6 +4,17 @@
         <p>This is the youtube page, here i will add notices for my youtube channel.</p>
         <br>
         <br>
+        <div class="play">
+            <iframe 
+            width="560" height="315" 
+            src="https://www.youtube.com/embed/videoseries?list=PLMSpkqIzr6oss-BSeVn0Mb85UO2Va3Xkm" 
+            title="Recomended Playlist" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+        <br>
+        <br>
         <!-- notices -->
         <p><br></p>
         <!-- notices -->
@@ -31,5 +42,10 @@
 
     .stream {
             text-align: center;
+    }
+
+    .play {
+        display: grid;
+        place-items: center;
     }
 </style>

@@ -33,4 +33,10 @@
         margin-top: 1rem;
     }
 
+    .home-page {
+        @media (max-width: 1024px) {
+			padding-left: 6rem;
+		}
+    }
+
 </style>

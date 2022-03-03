@@ -3,31 +3,27 @@ import Home from '../views/Home.vue'
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: [
-        {
-            path: '/',
-            redirect: {name: 'Home'}
-        },{
-        path: '/NotToxicDev-website/',
+    routes: [{
+        path: '/',
         name: 'NotToxicDev - Home',
         component: Home
     },{
-        path: '/NotToxicDev-website/about',
+        path: '/about',
         name: 'NotToxicDev - About',
         component: () => import('../views/About.vue')
     },{
-        path: '/NotToxicDev-website/contacts',
+        path: '/contacts',
         name: 'NotToxicDev - Contacts',
         component: () => import('../views/Contacts.vue')
     },{
-        path: '/NotToxicDev-website/games',
+        path: '/games',
         name: 'NotToxicDev - Games',
         component: () => import('../views/Games.vue')
     },{
-        path: '/NotToxicDev-website/youtube',
+        path: '/youtube',
         name: 'NotToxicDev - Youtube',
         component: () => import('../views/Youtube.vue')
-    },{ path: '/NotToxicDev-website/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/404.vue') }
+    },{ path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/404.vue') }
 ]
 })
 

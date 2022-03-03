@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Deploy
-dep.sh
+deploy.sh

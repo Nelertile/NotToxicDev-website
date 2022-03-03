@@ -12,27 +12,27 @@
 
       <h3>Menu</h3>
       <div class="menu">
-          <router-link class="button" to="/">
+          <router-link class="button" to="/NotToxicDev-website/">
             <span class="material-icons">home</span>
             <span class="text">Home</span>
           </router-link>
-          <router-link class="button" to="/about">
+          <router-link class="button" to="/NotToxicDev-website/about">
             <span class="material-icons">article</span>
             <span class="text">About</span>
           </router-link>
-          <router-link class="button" to="/youtube">
+          <router-link class="button" to="/NotToxicDev-website/youtube">
             <span class="material-icons">play_arrow</span>
             <span class="text">Youtube</span>
           </router-link>
-          <router-link class="button" to="/games">
+          <router-link class="button" to="/NotToxicDev-website/games">
             <span class="material-icons">sports_esports</span>
             <span class="text">Games</span>
           </router-link>
-          <router-link class="button" to="/contacts">
+          <router-link class="button" to="/NotToxicDev-website/contacts">
             <span class="material-icons">person</span>
             <span class="text">Contacts</span>
           </router-link>
-          <!-- <router-link class="button" to="/404">
+          <!-- <router-link class="button" to="/NotToxicDev-website/404">
             <span class="material-icons">error_outline</span>
             <span class="text">404</span>
           </router-link> -->

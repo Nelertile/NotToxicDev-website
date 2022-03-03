@@ -36,6 +36,7 @@
             <span class="material-icons">error_outline</span>
             <span class="text">404</span>
           </router-link> -->
+          <!-- i hate gh pages -->
       </div>
   </aside>
 </template>

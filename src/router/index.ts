@@ -5,6 +5,9 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
+            path: '/',
+            redirect: {name: 'home'}
+        },{
         path: '/NotToxicDev-website/',
         name: 'NotToxicDev - Home',
         component: Home

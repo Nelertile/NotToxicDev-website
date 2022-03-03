@@ -5,26 +5,26 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-        path: '/',
+        path: '/NotToxicDev-website/',
         name: 'NotToxicDev - Home',
         component: Home
     },{
-        path: '/about',
+        path: '/NotToxicDev-website/about',
         name: 'NotToxicDev - About',
         component: () => import('../views/About.vue')
     },{
-        path: '/contacts',
+        path: '/NotToxicDev-website/contacts',
         name: 'NotToxicDev - Contacts',
         component: () => import('../views/Contacts.vue')
     },{
-        path: '/games',
+        path: '/NotToxicDev-website/games',
         name: 'NotToxicDev - Games',
         component: () => import('../views/Games.vue')
     },{
-        path: '/youtube',
+        path: '/NotToxicDev-website/youtube',
         name: 'NotToxicDev - Youtube',
         component: () => import('../views/Youtube.vue')
-    },{ path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/404.vue') }
+    },{ path: '/NotToxicDev-website/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/404.vue') }
 ]
 })
 

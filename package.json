@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "dep": "sh deploy.sh"
+    "dep": "sh deploy-.sh",
+    "old-deploy": "sh deploy.sh"
   },
   "dependencies": {
     "vue": "^3.2.25",

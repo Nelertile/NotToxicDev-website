@@ -29,7 +29,7 @@ import Sidebar from './components/Sidebar.vue'
 }
 
 .app {
-  background-color: $primary-alt;
+  background: linear-gradient(180deg, $primary, $primary-alt, $dark-alt);
 }
 
 button {

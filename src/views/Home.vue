@@ -1,7 +1,7 @@
 <template>
     <main class="home-page">
         <div class="logo">
-            <img src="../assets/logo.png" alt="NTD logo">
+            <img src="../assets/logo-text.png" alt="NTD logo">
         </div>
         <h1>Hello, NotToxicDev here.</h1>
         <router-link class="abt" to = "/about">
